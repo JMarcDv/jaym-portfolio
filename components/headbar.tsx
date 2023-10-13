@@ -1,6 +1,5 @@
 'use client';
 import {
-  Button,
   Link,
   Navbar,
   NavbarBrand,
@@ -24,27 +23,21 @@ export default function HeadBar() {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="/">
+          <Link color="foreground" href="#home" aria-current="page">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="/resume" aria-current="page">
+          <Link color="foreground" href="#resume" aria-current="page">
             Resume
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#projects" aria-current="page">
             Projects
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            About
-          </Link>
-        </NavbarItem>
       </NavbarContent>
-      {/* <NavbarContent justify="end"></NavbarContent> */}
     </Navbar>
   );
 }
