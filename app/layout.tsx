@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import './globals.css';
 import type { Metadata } from 'next';
 import { Providers } from './providers';
@@ -17,10 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth" style={{scrollBehavior:'smooth'}}>
       <body>
-        <div className="h-0">
+        <header className="h-0">
           <HeadBar />
-        </div>
+        </header>
         <Providers>{children}</Providers>
+        <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
       </body>
     </html>
   );
