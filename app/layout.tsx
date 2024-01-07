@@ -1,10 +1,9 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import { Providers } from './providers';
-import HeadBar from '@/components/headbar';
+// import HeadBar from '@/components/headbar';
 
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Jean DE VERA',
@@ -17,13 +16,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark scroll-smooth" style={{scrollBehavior:'smooth'}}>
       <body>
-        <div className="h-0">
-          <HeadBar />
-        </div>
+        <header className="h-0">
+          {/* <HeadBar /> */}
+        </header>
         <Providers>{children}</Providers>
+        <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
       </body>
     </html>
   );
 }
+ 
