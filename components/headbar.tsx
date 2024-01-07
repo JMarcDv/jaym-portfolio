@@ -10,10 +10,10 @@ import { Avatar } from '@nextui-org/react';
 
 export default function HeadBar() {
   return (
-    <Navbar shouldHideOnScroll isBordered>
+    <Navbar isBordered>
       <NavbarBrand>
         <Avatar
-          src="https://media.licdn.com/dms/image/D4E03AQEYz1hT9ZDhmA/profile-displayphoto-shrink_800_800/0/1687792771595?e=2147483647&v=beta&t=tG_wihoASsoljd70Y8GTOfWCN8xkEL35MMuuEIYZKF8"
+          src="/assets/logos/profilePic.jpeg"
           isBordered
           name="JDV"
           className="m-3"
@@ -24,17 +24,17 @@ export default function HeadBar() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#home" aria-current="page">
-            Home
+            Accueil
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
+        <NavbarItem>
           <Link color="foreground" href="#resume" aria-current="page">
-            Resume
+            Expériences
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#projects" aria-current="page">
-            Projects
+            Projets
           </Link>
         </NavbarItem>
       </NavbarContent>

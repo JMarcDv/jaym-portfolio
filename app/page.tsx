@@ -1,20 +1,23 @@
 'use client'
-import First from '@/components/first'
-import Resume from '@/components/resume'
+import First from '@/components/Home/first'
+import HeadBar from '@/components/headbar';
+import Projects from '@/components/Projects/projects';
+import Resume from '@/components/Resume/resume'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { useEffect } from 'react';
 
 export default function Home() {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+  })
   return (
     //#9864c8
     <>
+      <HeadBar />
       <First/>
       <Resume/>
+      <Projects/>
     </>
-      // <div id="projects" className='h-screen bg-gradient-to-b from-blue-950 to-blue-500'>
-      //   PROJECT
-      //   <Link href='#home'>Back to top</Link>
-      // </div>
   )
 }

@@ -11,7 +11,7 @@ export default function First() {
                 isZoomed
                 width={300}
                 alt="NextUI hero Image"
-                src="https://media.licdn.com/dms/image/D4E03AQEYz1hT9ZDhmA/profile-displayphoto-shrink_800_800/0/1687792771595?e=2147483647&v=beta&t=tG_wihoASsoljd70Y8GTOfWCN8xkEL35MMuuEIYZKF8"
+                src="/assets/logos/profilePic.jpeg"
               />
             </div>
             <div className=" m-5">
