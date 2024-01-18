@@ -3,9 +3,9 @@ import CardProject from "./cardProject";
 
 export default function Projects() {
     return(
-      <section id="projects" className='h-screen bg-gradient-to-b from-blue-950 to-blue-500'>
-        <div className="flex flex-col justify-center h-screen">
-          <div className="flex flex-row justify-center">
+      <section id="projects" className='sm:h-screen bg-gradient-to-b from-blue-950 to-blue-900'>
+        <div className="flex flex-col justify-center sm:h-screen">
+          <div className="flex flex-col sm:flex-row sm:justify-center items-center">
             <CardProject
               name="Acenstream" 
               arobase="Acensi"
@@ -28,7 +28,7 @@ export default function Projects() {
               srcAvatar="/assets/logos/logo_scriptRunner.jpeg"
             />
           </div>
-          <div className="flex flex-row justify-center">
+          <div className="flex flex-col sm:flex-row sm:justify-center items-center">
             <CardProject
               name="Intelligence artificielle" 
               arobase="ParisCité"

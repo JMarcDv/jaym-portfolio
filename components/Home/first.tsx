@@ -3,7 +3,7 @@ import { Image } from "@nextui-org/react"
 
 export default function First() {
     return (
-      <section id="home" className="flex items-center h-screen relative justify-center w-full bg-cover bg-center bg-gradient-to-b from-violet-600 to-violet-950">
+      <section id="home" className="flex items-center h-screen relative justify-center w-full bg-cover bg-center bg-gradient-to-b from-violet-900 to-violet-950">
         <div className='flex flex-col items-center'>
           <div className='flex items-center'>
             <div className=" m-5">

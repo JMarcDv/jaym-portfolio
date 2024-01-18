@@ -2,7 +2,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Providers } from './providers';
-// import HeadBar from '@/components/headbar';
+import HeadBar from '@/components/headbar';
 
 
 export const metadata: Metadata = {
@@ -18,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth" style={{scrollBehavior:'smooth'}}>
       <body>
-        <header className="h-0">
-          {/* <HeadBar /> */}
-        </header>
+        <HeadBar />
         <Providers>{children}</Providers>
         <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
       </body>

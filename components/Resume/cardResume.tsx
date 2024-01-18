@@ -9,13 +9,14 @@ export default function CardResume (props: { type: string; title: string; where:
           <small className="text-default-500">{title}</small>
           <h4 className="font-bold text-large">{where}</h4>
         </CardHeader>
-        <CardBody className="overflow-visible py-2">
+        <CardBody className="py-2 flex flex-row justify-center content-center">
           <Image
             isZoomed
             alt="Card background"
-            className="object-cover rounded-xl"
+            className="object-contain rounded-xl"
             src={imgSrc}
-            width={270}
+            width={90}
+            height={90}
           />
         </CardBody>
       </Card> 
