@@ -11,7 +11,7 @@ export default function Projects() {
               arobase="Acensi"
               description="Application de gestion de diffusions de contenus dynamiques sur une TV à distance"
               hashtags={["ReactJs", "NodeJs", "Docker", "Jest", "Cypress"]}
-              srcAvatar="/assets/logos/logo_a_acensi.png"
+              srcAvatar="/assets/logos/logo_a_acensi.webp"
               locked
             />
             <CardProject
@@ -27,7 +27,7 @@ export default function Projects() {
               arobase="Acensi"
               description="Script de création de macro Confluence avec ScriptRunner"
               hashtags={["Groovy", "Confluence", "Jira", 'Atlassian']}
-              srcAvatar="/assets/logos/logo_scriptRunner.jpeg"
+              srcAvatar="/assets/logos/logo_scriptRunner.webp"
               locked
             />
           </div>
@@ -37,7 +37,7 @@ export default function Projects() {
               arobase="ParisCité"
               description="Projet d'école : Application de reconnaissance d'images d'escalier"
               hashtags={["JAVA", "Algorithmes", "IA"]}
-              srcAvatar="/assets/logos/logo_paris_cite.jpeg"
+              srcAvatar="/assets/logos/logo_paris_cite.webp"
               locked={false}
             />
             <CardProject
@@ -45,7 +45,7 @@ export default function Projects() {
               arobase="ParisCité"
               description="Projet d'école : Application mobile de sondage qui compare plusieurs produits entre eux"
               hashtags={["ReactNative", "PHP", "MySQL"]}
-              srcAvatar="/assets/logos/logo_comparUtil.png"
+              srcAvatar="/assets/logos/logo_comparUtil.webp"
               locked={false}
             />
             <CardProject
@@ -53,7 +53,7 @@ export default function Projects() {
               arobase="LycéeBuffon"
               description="Projet d'école : Création d'une messagerie chiffré avec l'algorithme RSA"
               hashtags={["Pyhton", "Algorithme"]}
-              srcAvatar="/assets/logos/logo_buffon.png"
+              srcAvatar="/assets/logos/logo_buffon.webp"
               locked={false}
             />
           </div>

@@ -14,7 +14,7 @@ export default function First() {
                 isZoomed
                 width={300}
                 alt="NextUI hero Image"
-                src="/assets/logos/profilePic.jpeg"
+                src="/assets/logos/profilePic.webp"
               />
             </div>
             <div className="sm:m-5">

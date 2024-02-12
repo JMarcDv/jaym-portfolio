@@ -29,7 +29,7 @@ export default function HeadBar() {
         />
         <NavbarBrand>
           <Avatar
-            src="/assets/logos/profilePic.jpeg"
+            src="/assets/logos/profilePic.webp"
             isBordered
             name="JDV"
             className="m-3"
