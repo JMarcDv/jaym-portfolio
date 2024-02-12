@@ -2,8 +2,13 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Providers } from './providers';
-// import HeadBar from '@/components/headbar';
+import HeadBar from '@/components/headbar';
+import { Fira_Code } from 'next/font/google'
 
+const firaCode = Fira_Code({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Jean DE VERA',
@@ -16,15 +21,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark scroll-smooth" style={{scrollBehavior:'smooth'}}>
+    <html lang="en" className={firaCode.className} style={{scrollBehavior:'smooth'}}>
       <body>
-        <header className="h-0">
-          {/* <HeadBar /> */}
-        </header>
+        <HeadBar />
         <Providers>{children}</Providers>
         <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
       </body>
     </html>
   );
 }
- 

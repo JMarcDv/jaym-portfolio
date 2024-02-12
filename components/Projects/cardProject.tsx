@@ -1,11 +1,11 @@
 import { Avatar, Button, Card, CardBody, CardFooter, CardHeader } from "@nextui-org/react";
 import React from "react";
 
-export default function CardProject(props: { name: string; arobase: string; description: string; hashtags: Array<string>; srcAvatar: string }) {
-  const { name, arobase, description, hashtags, srcAvatar } = props;
-    const [isFollowed, setIsFollowed] = React.useState(false);
+export default function CardProject(props: { name: string; arobase: string; description: string; hashtags: Array<string>; srcAvatar: string; locked: boolean }) {
+  const { name, arobase, description, hashtags, srcAvatar, locked } = props;
+    const [isLocked, setIsLocked] = React.useState(locked);
     return (
-      <Card data-aos="zoom-in" className="w-1/4 h-44 m-7" isFooterBlurred>
+      <Card data-aos="zoom-in" className="lg:w-2/4 w-3/4 lg:h-44 h-48 m-7">
         <CardHeader className="justify-between">
           <div className="flex gap-5">
             <Avatar isBordered radius="full" size="md" src={srcAvatar} />
@@ -15,14 +15,14 @@ export default function CardProject(props: { name: string; arobase: string; desc
             </div>
           </div>
           <Button
-            className={isFollowed ? "bg-transparent text-foreground border-default-200" : ""}
+            className={isLocked ? " bg-slate-300 text-foreground border-default-200" : ""}
             color="primary"
             radius="full"
             size="sm"
-            variant={isFollowed ? "bordered" : "solid"}
-            onPress={() => setIsFollowed(!isFollowed)}
+            variant={isLocked ? "bordered" : "solid"}
+            onPress={() => locked ? setIsLocked(true) : setIsLocked(!isLocked)}
           >
-            {isFollowed ? "Locked" : "Lire plus"}
+            {isLocked ? "Verrouillé" : "Lire plus"}
           </Button>
         </CardHeader>
         <CardBody className="flex justify-between px-3 py-0 text-small text-default-400 overflow-hidden">
@@ -36,7 +36,7 @@ export default function CardProject(props: { name: string; arobase: string; desc
             </span>
           </span>
         </CardBody>
-        <CardFooter className="gap-3">
+        <CardFooter className="gap-3 bg-white">
           <div className="flex gap-1">
             <p className="font-semibold text-default-400 text-small">19</p>
             <p className=" text-default-400 text-small">Following</p>
