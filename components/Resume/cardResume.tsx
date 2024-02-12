@@ -19,6 +19,6 @@ export default function CardResume (props: { type: string; title: string; where:
             height={90}
           />
         </CardBody>
-      </Card> 
+      </Card>
     )
 }

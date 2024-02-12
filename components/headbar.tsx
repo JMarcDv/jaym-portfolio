@@ -40,17 +40,17 @@ export default function HeadBar() {
       </NavbarContent>
         <NavbarContent className="sm:flex hidden gap-4" justify='center'>
           <NavbarItem>
-            <Link color="foreground" href="#home" aria-current="page">
+            <Link className='text-white' href="#home" aria-current="page">
               Accueil
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#resume" aria-current="page">
+            <Link className='text-white' href="#resume" aria-current="page">
               Expériences
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#projects" aria-current="page">
+            <Link className='text-white' href="#projects" aria-current="page">
               Projets
             </Link>
           </NavbarItem>

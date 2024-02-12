@@ -5,7 +5,7 @@ export default function CardProject(props: { name: string; arobase: string; desc
   const { name, arobase, description, hashtags, srcAvatar } = props;
     const [isFollowed, setIsFollowed] = React.useState(false);
     return (
-      <Card data-aos="zoom-in" className="sm:w-2/4 w-3/4 sm:h-44 h-48 m-7" isFooterBlurred>
+      <Card data-aos="zoom-in" className="sm:w-2/4 w-3/4 sm:h-44 h-48 m-7">
         <CardHeader className="justify-between">
           <div className="flex gap-5">
             <Avatar isBordered radius="full" size="md" src={srcAvatar} />
@@ -36,7 +36,7 @@ export default function CardProject(props: { name: string; arobase: string; desc
             </span>
           </span>
         </CardBody>
-        <CardFooter className="gap-3">
+        <CardFooter className="gap-3 bg-white">
           <div className="flex gap-1">
             <p className="font-semibold text-default-400 text-small">19</p>
             <p className=" text-default-400 text-small">Following</p>
