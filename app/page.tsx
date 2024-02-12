@@ -3,7 +3,7 @@ import First from '@/components/Home/first'
 import Projects from '@/components/Projects/projects';
 import Resume from '@/components/Resume/resume'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Starfield from 'react-starfield';
 

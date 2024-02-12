@@ -25,7 +25,7 @@ export default function HeadBar() {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="md:hidden"
         />
         <NavbarBrand>
           <Avatar
@@ -38,7 +38,7 @@ export default function HeadBar() {
           <p className="font-bold text-inherit">Jean DE VERA</p>
         </NavbarBrand>
       </NavbarContent>
-        <NavbarContent className="sm:flex hidden gap-4" justify='center'>
+        <NavbarContent className="md:flex hidden gap-4" justify='center'>
           <NavbarItem>
             <Link className='text-white' href="#home" aria-current="page">
               Accueil

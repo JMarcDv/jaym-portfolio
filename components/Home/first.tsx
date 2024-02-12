@@ -9,7 +9,7 @@ export default function First() {
       <section id="home" className="flex items-center h-screen relative justify-center w-full bg-cover bg-center bg-gradient-to-b from-violet-900 to-violet-950">
         <div className='flex flex-col items-center justify-center w-11/12'>
           <div className='flex items-center'>
-            <div className="sm:flex md:h-1/5 md:w-1/5 m-5 hidden h-0 w-0">
+            <div className="lg:flex hidden">
               <Image
                 isZoomed
                 width={300}
@@ -17,7 +17,7 @@ export default function First() {
                 src="/assets/logos/profilePic.jpeg"
               />
             </div>
-            <div className="m-5">
+            <div className="sm:m-5">
               <h1 className="flex">
                 <p className="text-green-500">➜&nbsp;</p>
                 <p className="text-blue-400">j_d_v_portfolio&nbsp;</p>
