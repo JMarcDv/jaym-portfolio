@@ -8,8 +8,8 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   NavbarMenuToggle,
+  User,
 } from '@nextui-org/react';
-import { Avatar } from '@nextui-org/react';
 import React from 'react';
 
 export default function HeadBar() {
@@ -28,14 +28,13 @@ export default function HeadBar() {
           className="md:hidden"
         />
         <NavbarBrand>
-          <Avatar
-            src="/assets/logos/profilePic.webp"
-            isBordered
-            name="JDV"
-            className="m-3"
-            radius="md"
-            />
-          <p className="font-bold text-inherit">Jean DE VERA</p>
+          <User
+            name="Jean DE VERA"
+            description="Développeur full-stack"
+            avatarProps={{
+              src:"/assets/logos/profilePic.webp"
+            }}
+          />
         </NavbarBrand>
       </NavbarContent>
         <NavbarContent className="md:flex hidden gap-4" justify='center'>
