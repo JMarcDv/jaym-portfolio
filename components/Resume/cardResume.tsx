@@ -9,7 +9,7 @@ export default function CardResume (props: { type: string; title: string; where:
           <small className="text-default-500">{title}</small>
           <h4 className="font-bold text-large">{where}</h4>
         </CardHeader>
-        <CardBody className="py-2 flex flex-row justify-center content-center">
+        <CardBody className="py-2 flex flex-row justify-center content-center overflow-hidden">
           <Image
             isZoomed
             alt="Card background"

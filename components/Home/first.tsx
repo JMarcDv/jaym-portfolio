@@ -13,8 +13,9 @@ export default function First() {
               <Image
                 isZoomed
                 width={300}
+                height={300}
                 alt="NextUI hero Image"
-                src="/assets/logos/profilePic.jpeg"
+                src="/assets/logos/profilePic.webp"
               />
             </div>
             <div className="sm:m-5">
@@ -27,14 +28,14 @@ export default function First() {
                 <p className="text-yellow-500">&nbsp;✗</p>
               </h1>
               <span>
-                <p>
+                <p className="text-white">
                   Hello ! Je suis Jean et je suis un <strong className="text-yellow-300">développeur full-stack</strong> :).<br />
                   J&apos;ai 24 ans et je vis dans la banlieue parisienne. <br />
                   Passioné par le <strong className="text-yellow-300">développement web / logiciel</strong> depuis la fin du Lycée (2016-2017)
                 </p>
               </span>
               <span className="hidden sm:flex">
-                <p>
+                <p className="text-white">
                   Je suis allé en Licence Mathématiques et Informatique à l&apos;Université Paris-Cité (anciennement Paris Descartes)<br />
                   Par la suite, j&apos;ai voulu découvrir une branche de l&apos;infomatique :
                   <strong className="flex items-center text-cyan-200">La cybersécurité.&nbsp;<MdOutlineSecurity /></strong>
@@ -42,7 +43,9 @@ export default function First() {
                   Mais réalisant que cela m&apos;interessait pas plus, je suis retourné avec mon premier coup de foudre : <strong className="flex items-center text-yellow-300">Le développement.&nbsp;<FaCode /></strong>
                 </p>
               </span>
-              Actuellement chez Acensi.
+              <p className="text-white">
+                Actuellement chez Acensi.
+              </p>
             </div>
           </div>
           <div className="flex sm:flex-row flex-col">
