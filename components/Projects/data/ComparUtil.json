@@ -1,0 +1,10 @@
+{
+    "description": "Projet d'école réalisé en 2ème année de licence : Application mobile de sondage qui compare plusieurs produits entre eux. Des questions prédéfinis sont posées et laisse le choix à l'utilisateur. A la fin du sondage, un classement est établi en fonction du nombre de points de chaque produits",
+    "details" : "Développeur full-stack du projet, intégré dans une équipe de 4 développeurs et un tuteur de projet.",
+    "technicalEnv": {
+        "languages": "React Native, HTML, CSS (frontend), PHP (backend), MySQL",
+        "frameworks": "PHPmyAdmin",
+        "tests": "Jest (tests unitaires)",
+        "more": "Première expérience en React-Native (ancien fonctionnement avec des class components), PHP et manipulation de BDD avec les requêtes SQL."
+    }
+}

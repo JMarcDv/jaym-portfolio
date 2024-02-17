@@ -1,0 +1,10 @@
+{
+    "description": "Projet de Terminale (spécialité ISN) : Création d'une messagerie chiffré avec l'algorithme RSA",
+    "details" : "Développeur du projet, intégré dans une équipe de 4 développeurs.",
+    "technicalEnv": {
+        "languages": "Python",
+        "frameworks": "Tkinter (interface graphique), gmpy2 (fonctions mathématiques)",
+        "tests": "N/A",
+        "more": "Première expérience en développement logiciel. J'ai pris beaucoup de plaisir a réaliser ce projet qui a été pour moi, la confirmation de la voie à suivre pour les études supérieurs"
+    }
+}

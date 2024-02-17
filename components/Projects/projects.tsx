@@ -3,7 +3,7 @@ import CardProject from "./cardProject";
 
 export default function Projects() {
     return(
-      <section id="projects" className='lg:h-screen bg-gradient-to-b from-blue-950 to-blue-900'>
+      <section id="projects" className='lg:h-screen w-screen bg-gradient-to-b from-blue-950 to-blue-900'>
         <div className="flex flex-col justify-center lg:h-screen">
           <div className="flex flex-col lg:flex-row lg:justify-center items-center">
             <CardProject
@@ -33,17 +33,17 @@ export default function Projects() {
           </div>
           <div className="flex flex-col lg:flex-row lg:justify-center items-center">
             <CardProject
-              name="Intelligence artificielle"
-              arobase="ParisCité"
-              description="Projet d'école : Application de reconnaissance d'images d'escalier"
-              hashtags={["JAVA", "Algorithmes", "IA"]}
-              srcAvatar="/assets/logos/logo_paris_cite.webp"
+              name="Portfolio"
+              arobase="JDV"
+              description="Portfolio contenant mes differents expériences en tant que développeur"
+              hashtags={["NextJS", "TypeScript", "TailwindCSS"]}
+              srcAvatar="/assets/logos/profilePic2.webp"
               locked={false}
             />
             <CardProject
               name="ComparUtil"
               arobase="ParisCité"
-              description="Projet d'école : Application mobile de sondage qui compare plusieurs produits entre eux"
+              description="Projet d'école : Application mobile de sondage qui compare plusieurs produits"
               hashtags={["ReactNative", "PHP", "MySQL"]}
               srcAvatar="/assets/logos/logo_comparUtil.webp"
               locked={false}

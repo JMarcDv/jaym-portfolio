@@ -1,0 +1,10 @@
+{
+    "description": "Application de gestion d'étiquettes destinées aux points de vente SFR",
+    "details" : "Développeur full-stack du projet, intégré dans une équipe de 6 personnes (1 lead dev et 5 développeurs).",
+    "technicalEnv": {
+        "languages": "ReactJS (avec Redux), NodeJS, HTML, CSS",
+        "frameworks": "MaterialUI, Fastify, Sequelize",
+        "tests": "Cypress (E2E tests), Jest (unit testing), Jenkins (CI)",
+        "more" : "Utilisation de Docker et Docker-compose"
+    }
+}
