@@ -1,0 +1,10 @@
+{
+    "description": "Script de création de macro Confluence avec ScriptRunner. Le script permet de figer le statut des tickets Jira pour une date donnée.",
+    "details" : "Développeur du script, en duo avec un autre développeur",
+    "technicalEnv": {
+        "languages": "Groovy",
+        "frameworks": "API Rest",
+        "tests": "N/A",
+        "more" : "Compréhension des outils Atlassian (Jira et Confluence)"
+    }
+}

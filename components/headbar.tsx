@@ -32,7 +32,7 @@ export default function HeadBar() {
             name="Jean DE VERA"
             description="Développeur full-stack"
             avatarProps={{
-              src:"/assets/logos/profilePic.webp"
+              src:"/assets/logos/profilePic2.webp"
             }}
             className='text-white'
           />

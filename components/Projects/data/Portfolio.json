@@ -1,0 +1,10 @@
+{
+    "description": "Portfolio contenant mes differents expériences en tant que développeur",
+    "details" : "Développeur :)",
+    "technicalEnv": {
+        "languages": "NextJS avec TypeScript",
+        "frameworks": "TailwindCSS",
+        "tests": "Déploiement avec Netlify",
+        "more": "Le Portfolio est en constante évolution ! (Soon in english :))"
+    }
+}

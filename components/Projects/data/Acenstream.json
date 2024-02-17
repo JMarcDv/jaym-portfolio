@@ -1,0 +1,10 @@
+{
+    "description": "Application de gestion de diffusions de contenus dynamiques sur une TV à distance",
+    "details" : "Lead développeur full-stack du projet, intégré dans une équipe de 3 autres développeurs.",
+    "technicalEnv": {
+        "languages": "ReactJS (avec Redux), NodeJS, HTML, CSS",
+        "frameworks": "MaterialUI, Fastify, Sequelize",
+        "tests": "Cypress (E2E tests), Jest (unit testing), Jenkins (CI)",
+        "more" : "Utilisation de Docker et Docker-compose"
+    }
+}

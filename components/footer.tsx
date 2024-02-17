@@ -14,7 +14,7 @@ export default function Footer() {
                         <BiLogoGmail className="h-10 w-10 fill-white"/> <Link className="text-blue-300" href="mailto:jmdevera19@gmail.com">jmdevera19@gmail.com</Link>
                     </div>
                     <div className="flex items-center m-5 gap-2 ">
-                        <FaGithub className="h-10 w-10 fill-white"/> <Link className="text-blue-300" href="https://github.com/JMarcDv">JMarcDv</Link>
+                        <FaGithub className="h-10 w-10 fill-white"/> <Link className="text-blue-300" href="https://github.com/JMarcDv">Jean Dv</Link>
                     </div>
                     <div className="flex items-center m-5 gap-2">
                         <FaLinkedin className="h-10 w-10 fill-white"/> <Link className="text-blue-300" href="https://www.linkedin.com/in/jean-de-vera-ba1885199/">Jean DE VERA</Link>
