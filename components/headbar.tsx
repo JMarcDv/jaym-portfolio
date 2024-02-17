@@ -34,6 +34,7 @@ export default function HeadBar() {
             avatarProps={{
               src:"/assets/logos/profilePic.webp"
             }}
+            className='text-white'
           />
         </NavbarBrand>
       </NavbarContent>
@@ -45,7 +46,7 @@ export default function HeadBar() {
           </NavbarItem>
           <NavbarItem>
             <Link className='text-white' href="#resume" aria-current="page">
-              Expériences
+              CV
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -59,7 +60,7 @@ export default function HeadBar() {
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
                 color="foreground"
-                className="w-full"
+                className="w-screen"
                 href={itemLink(item)}
                 size="lg"
                 onClick={() => {setIsMenuOpen(false)}}

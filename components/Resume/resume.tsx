@@ -2,7 +2,7 @@ import CardResume from "./cardResume";
 
 export default function Resume() {
     return (
-      <section id="resume" className='h-screen bg-gradient-to-b from-violet-950 to-blue-950'>
+      <section id="resume" className='h-screen w-screen bg-gradient-to-b from-violet-950 to-blue-950'>
         <div className="flex justify-center items-center h-screen w-screen">
           <ol className="relative border-s border-gray-200 dark:border-gray-700 sm:w-2/3 md:w-2/3 lg:w-2/5 w-11/12">
             <li data-aos="fade-in" className="mb-10 ms-4 flex items-center">

@@ -3,7 +3,7 @@ import CardProject from "./cardProject";
 
 export default function Projects() {
     return(
-      <section id="projects" className='lg:h-screen bg-gradient-to-b from-blue-950 to-blue-900'>
+      <section id="projects" className='lg:h-screen w-screen bg-gradient-to-b from-blue-950 to-blue-900'>
         <div className="flex flex-col justify-center lg:h-screen">
           <div className="flex flex-col lg:flex-row lg:justify-center items-center">
             <CardProject
