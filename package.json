@@ -9,9 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nextui-org/react": "^2.1.13",
+    "@heroui/react": "2.6.14",
     "aos": "^3.0.0-beta.6",
-    "framer-motion": "^10.16.4",
     "next": "13.5.3",
     "react": "latest",
     "react-dom": "latest",

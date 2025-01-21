@@ -1,5 +1,5 @@
 'use client'
-import { Image, Link } from "@nextui-org/react"
+import { Image, Link } from "@heroui/react"
 import { BiLogoGmail } from "react-icons/bi"
 import { FaCode, FaGithub, FaLinkedin } from "react-icons/fa"
 import { MdOutlineSecurity } from "react-icons/md"
@@ -13,8 +13,8 @@ export default function First() {
               <Image
                 isZoomed
                 width={300}
-                height={300}
-                alt="NextUI hero Image"
+                height={370}
+                alt="Jean profile picture"
                 src="/assets/logos/profilePic.webp"
               />
             </div>
