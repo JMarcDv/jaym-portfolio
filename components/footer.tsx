@@ -1,4 +1,4 @@
-import { Link } from '@nextui-org/react';
+import { Link } from "@heroui/react";
 import React from 'react';
 import { BiLogoGmail } from 'react-icons/bi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';

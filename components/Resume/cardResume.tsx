@@ -1,4 +1,4 @@
-import { Card, CardBody, CardHeader, Image } from "@nextui-org/react";
+import { Card, CardBody, CardHeader, Image } from "@heroui/react";
 
 export default function CardResume (props: { type: string; title: string; where: string; imgSrc: string }) {
   const { type, title, where, imgSrc } = props;
