@@ -13,8 +13,8 @@ export default function First() {
               <Image
                 isZoomed
                 width={300}
-                height={300}
-                alt="NextUI hero Image"
+                height={370}
+                alt="Jean profile picture"
                 src="/assets/logos/profilePic.webp"
               />
             </div>
