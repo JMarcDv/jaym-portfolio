@@ -1,4 +1,4 @@
-import { Avatar, Button, Card, CardBody, CardFooter, CardHeader, useDisclosure } from "@nextui-org/react";
+import { Avatar, Button, Card, CardBody, CardFooter, CardHeader, useDisclosure } from "@heroui/react";
 import React, { useState } from "react";
 import ModalProject from "./modalProject";
 

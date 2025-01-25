@@ -9,7 +9,7 @@ import {
   NavbarMenuItem,
   NavbarMenuToggle,
   User,
-} from '@nextui-org/react';
+} from "@heroui/react";
 import React from 'react';
 
 export default function HeadBar() {

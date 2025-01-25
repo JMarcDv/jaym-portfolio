@@ -1,4 +1,5 @@
-import { Link } from '@nextui-org/react';
+import { APP_VERSION } from "@/version";
+import { Link } from "@heroui/react";
 import React from 'react';
 import { BiLogoGmail } from 'react-icons/bi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -21,7 +22,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='text-white p-1'>
-                    © Jean DE VERA - {year}
+                    © Jean DE VERA - {year} -  v{APP_VERSION}
                 </div>
                 <div className='p-2'>
                     <GiLoveSong className='fill-white'/>

@@ -1,10 +1,18 @@
 'use client'
-import { Image, Link } from "@nextui-org/react"
+import { Image, Link } from "@heroui/react"
 import { BiLogoGmail } from "react-icons/bi"
 import { FaCode, FaGithub, FaLinkedin } from "react-icons/fa"
 import { MdOutlineSecurity } from "react-icons/md"
 
 export default function First() {
+  const ageCalculator = () => {
+    const birthDate = new Date("10/19/1999");
+    const month_diff = Date.now() - birthDate.getTime();
+    const age_dt = new Date(month_diff);
+    const year = age_dt.getUTCFullYear();
+    const age = Math.abs(year - 1970);
+    return age;
+  }
     return (
       <section id="home" className="flex items-center h-screen relative justify-center w-screen bg-cover bg-center bg-gradient-to-b from-violet-900 to-violet-950">
         <div className='flex flex-col items-center justify-center w-11/12'>
@@ -13,8 +21,8 @@ export default function First() {
               <Image
                 isZoomed
                 width={300}
-                height={300}
-                alt="NextUI hero Image"
+                height={370}
+                alt="Jean profile picture"
                 src="/assets/logos/profilePic.webp"
               />
             </div>
@@ -30,7 +38,7 @@ export default function First() {
               <span>
                 <p className="text-white">
                   Hello ! Je suis Jean et je suis un <strong className="text-yellow-300">développeur full-stack</strong> :).<br />
-                  J&apos;ai 24 ans et je vis dans la banlieue parisienne. <br />
+                  J&apos;ai {ageCalculator()} ans et je vis dans la banlieue parisienne. <br />
                   Passionné par le <strong className="text-yellow-300">développement web / logiciel</strong> depuis la fin du Lycée (2016-2017)
                 </p>
               </span>
