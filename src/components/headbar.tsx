@@ -11,8 +11,10 @@ import {
   User,
 } from "@heroui/react";
 import React from 'react';
+import {useTranslations} from 'next-intl';
 
 export default function HeadBar() {
+  const t = useTranslations('Headbar');
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const menuItems = ['Accueil', 'Expériences', 'Projets']
   const itemLink = (item: string) => {
@@ -30,7 +32,7 @@ export default function HeadBar() {
         <NavbarBrand>
           <User
             name="Jean DE VERA"
-            description="Développeur full-stack"
+            description={t('jobName')}
             avatarProps={{
               src:"/assets/logos/profilePic2.webp"
             }}
