@@ -4,5 +4,23 @@
     "home": "Accueil",
     "experiences": "Expériences",
     "projects": "Projets"
+  },
+  "First": {
+    "sentence1": "Hello ! Je suis Jean et je suis un ",
+    "jobName": "développeur full-stack",
+    "startSentence2": "J'ai ",
+    "sentence2": "ans et je vis dans la banlieue parisienne. ",
+    "startSentence3": "Passionné par le ",
+    "webDevelopment": "développement web / logiciel ",
+    "sentence3": "depuis la fin du Lycée (2016-2017).",
+    "sentence4": "Je suis allé en Licence Mathématique et Informatique à l'Université Paris Cité (anciennement Paris Descartes)",
+    "sentence5": "Par la suite, j'ai voulu découvrir une branche de l'informatique :",
+    "cybersecurity": "La cybersécurité.",
+    "sentence6": "J'ai donc suivi le master Informatique spécialité ",
+    "networks": "Réseaux ",
+    "endSentence6": "à Sorbonne Université.",
+    "sentence7": "Mais réalisant que cela m'intéressait pas plus, je suis retourné avec mon premier coup de foudre : ",
+    "sentence8": "Le développement web.",
+    "currentJob": "Actuellement chez Acensi."
   }
 }
