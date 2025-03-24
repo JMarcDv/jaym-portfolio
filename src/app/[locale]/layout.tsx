@@ -8,6 +8,7 @@ import { routing } from '@/src/i18n/routing';
 import { notFound } from 'next/navigation';
 import {getMessages} from 'next-intl/server';
 import {NextIntlClientProvider} from 'next-intl';
+import Starfield from 'react-starfield';
 
 
 
@@ -40,7 +41,13 @@ export default async function RootLayout({
     <html lang={locale} className={firaCode.className} style={{scrollBehavior:'smooth'}}>
       <body>
         <NextIntlClientProvider messages={messages}>
-        <HeadBar />
+          <Starfield
+            starCount={2500}
+            starColor={[255, 255, 255]}
+            speedFactor={0.1}
+            backgroundColor="black"
+          />
+          <HeadBar />
           <Providers>
             {children}
           </Providers>
