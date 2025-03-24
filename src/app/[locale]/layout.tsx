@@ -40,7 +40,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={firaCode.className} style={{scrollBehavior:'smooth'}}>
       <body>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Starfield
             starCount={2500}
             starColor={[255, 255, 255]}
