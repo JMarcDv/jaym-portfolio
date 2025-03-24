@@ -1,12 +1,14 @@
 'use client'
 import { Image, Link } from "@heroui/react"
+import { useTranslations } from "next-intl"
 import { BiLogoGmail } from "react-icons/bi"
 import { FaCode, FaGithub, FaLinkedin } from "react-icons/fa"
 import { MdOutlineSecurity } from "react-icons/md"
 
 export default function First() {
+  const t = useTranslations('First');
   const ageCalculator = () => {
-    const birthDate = new Date("10/19/1999"); // Yes this is my birth date :)
+    const birthDate = new Date(940284000000); // Yes this is my birth date :)
     const month_diff = Date.now() - birthDate.getTime();
     const age_dt = new Date(month_diff);
     const year = age_dt.getUTCFullYear();
@@ -37,22 +39,22 @@ export default function First() {
               </h1>
               <span>
                 <p className="text-white">
-                  Hello ! Je suis Jean et je suis un <strong className="text-yellow-300">développeur full-stack</strong> :).<br />
-                  J&apos;ai {ageCalculator()} ans et je vis dans la banlieue parisienne. <br />
-                  Passionné par le <strong className="text-yellow-300">développement web / logiciel</strong> depuis la fin du Lycée (2016-2017)
+                  {t('sentence1')}<strong className="text-yellow-300">{t('jobName')}</strong> :).<br />
+                  {t('startSentence2')}{ageCalculator()} {t('sentence2')}<br />
+                  {t('startSentence3')}<strong className="text-yellow-300">{t('webDevelopment')}</strong>{t('sentence3')}
                 </p>
               </span>
               <span className="hidden sm:flex">
                 <p className="text-white">
-                  Je suis allé en Licence Mathématique et Informatique à l&apos;Université Paris-Cité (anciennement Paris Descartes)<br />
-                  Par la suite, j&apos;ai voulu découvrir une branche de l&apos;informatique :
-                  <strong className="flex items-center text-cyan-200">La cybersécurité.&nbsp;<MdOutlineSecurity /></strong>
-                  J&apos;ai donc suivi le master Informatique spécialité <strong className="text-cyan-200">Réseaux</strong> à Sorbonne Université. <br />
-                  Mais réalisant que cela m&apos;intéressait pas plus, je suis retourné avec mon premier coup de foudre : <strong className="flex items-center text-yellow-300">Le développement.&nbsp;<FaCode /></strong>
+                  {t('sentence4')}<br />
+                  {t('sentence5')}
+                  <strong className="flex items-center text-cyan-200">{t('cybersecurity')}&nbsp;<MdOutlineSecurity /></strong>
+                  {t('sentence6')}<strong className="text-cyan-200">{t('networks')}</strong>{t('endSentence6')}<br />
+                  {t('sentence7')}<strong className="flex items-center text-yellow-300">{t('sentence8')}&nbsp;<FaCode /></strong>
                 </p>
               </span>
               <p className="text-white">
-                Actuellement chez Acensi.
+                {t('currentJob')}
               </p>
             </div>
           </div>

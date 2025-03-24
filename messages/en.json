@@ -4,5 +4,23 @@
     "home": "Home",
     "experiences": "Experiences",
     "projects": "Projects"
+  },
+  "First": {
+    "sentence1": "Hello ! I am Jean and I am a ",
+    "jobName": "full-stack web developer",
+    "startSentence2": "I'm ",
+    "sentence2": "years old and I live near Paris. ",
+    "startSentence3": "I started ",
+    "webDevelopment": "web / software development ",
+    "sentence3": "since high school (2016-2017).",
+    "sentence4": "I graduated from Paris Cité University with a Bachelor's-equivalent degree in IT.",
+    "sentence5": "From there, I wanted to discover a branch in IT :",
+    "cybersecurity": "Cybersecurity",
+    "sentence6": "Then, I earned a Master's degree in Computer Science, specialized in ",
+    "networks": "Networks ",
+    "endSentence6": "at Sorbonne University.",
+    "sentence7": "But I didn't really wanted to do that, so I decided to return to my first love : ",
+    "sentence8": "Being a full-stack developer.",
+    "currentJob": "Currently at Acensi."
   }
 }
