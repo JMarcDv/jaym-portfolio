@@ -24,5 +24,18 @@
     "sentence7": "But I didn't really wanted to do that, so I decided to return to my first love : ",
     "sentence8": "Being a full-stack developer.",
     "currentJob": "Currently at Acensi."
+  },
+  "Resume": {
+    "current": "Current",
+    "jobName": "Full-stack web developer",
+    "master": "Master degree",
+    "computerScience": "IT Networks",
+    "sorbonne": "Sorbonne University",
+    "bachelor": "Bachelor degree",
+    "mathAndComputerSci": "Mathematics and Computer Sciences",
+    "parisCite": "Paris Cité University",
+    "baccalaureat": "French Scientific Baccalaureate",
+    "honors": "With honors",
+    "college": "Buffon College Paris 15"
   }
 }
