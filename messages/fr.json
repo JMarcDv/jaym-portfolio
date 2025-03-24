@@ -24,5 +24,18 @@
     "sentence7": "Mais réalisant que cela m'intéressait pas plus, je suis retourné avec mon premier coup de foudre : ",
     "sentence8": "Le développement web.",
     "currentJob": "Actuellement chez Acensi."
+  },
+  "Resume": {
+    "current": "Présent",
+    "jobName": "Développeur full-stack",
+    "master": "Master",
+    "computerScience": "Informatique réseaux",
+    "sorbonne": "Sorbonne Université",
+    "bachelor": "Licence",
+    "mathAndComputerSci": "Mathematiques et Informatiques",
+    "parisCite": "Université Paris Cité",
+    "baccalaureat": "Baccalaureat Scientifique",
+    "honors": "Mention assez bien",
+    "college": "Lycée Buffon, Paris 15ème"
   }
 }
