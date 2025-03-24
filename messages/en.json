@@ -1,5 +1,8 @@
 {
   "Headbar": {
-    "jobName": "Full-stack web developer"
+    "jobName": "Full-stack web developer",
+    "home": "Home",
+    "experiences": "Experiences",
+    "projects": "Projects"
   }
 }

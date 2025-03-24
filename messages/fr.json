@@ -1,5 +1,8 @@
 {
   "Headbar": {
-    "jobName": "Développeur full-stack"
+    "jobName": "Développeur full-stack",
+    "home": "Accueil",
+    "experiences": "Expériences",
+    "projects": "Projets"
   }
 }

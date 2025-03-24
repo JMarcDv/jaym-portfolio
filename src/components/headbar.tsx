@@ -16,7 +16,7 @@ import {useTranslations} from 'next-intl';
 export default function HeadBar() {
   const t = useTranslations('Headbar');
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const menuItems = ['Accueil', 'Expériences', 'Projets']
+  const menuItems = [t('home'), t('experiences'), t('projects')]
   const itemLink = (item: string) => {
     if (item === 'Accueil') return '#home'
     if (item === 'Expériences') return '#resume'
@@ -43,17 +43,17 @@ export default function HeadBar() {
         <NavbarContent className="md:flex hidden gap-4" justify='center'>
           <NavbarItem>
             <Link className='text-white' href="#home" aria-current="page">
-              Accueil
+              {t('home')}
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link className='text-white' href="#resume" aria-current="page">
-              CV
+              {t('experiences')}
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link className='text-white' href="#projects" aria-current="page">
-              Projets
+              {t('projects')}
             </Link>
           </NavbarItem>
         </NavbarContent>
