@@ -6,7 +6,7 @@ import { MdOutlineSecurity } from "react-icons/md"
 
 export default function First() {
   const ageCalculator = () => {
-    const birthDate = new Date("10/19/1999");
+    const birthDate = new Date("10/19/1999"); // Yes this is my birth date :)
     const month_diff = Date.now() - birthDate.getTime();
     const age_dt = new Date(month_diff);
     const year = age_dt.getUTCFullYear();
