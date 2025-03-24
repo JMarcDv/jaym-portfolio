@@ -3,7 +3,9 @@
     "jobName": "Développeur full-stack",
     "home": "Accueil",
     "experiences": "Expériences",
-    "projects": "Projets"
+    "projects": "Projets",
+    "french": "Français",
+    "english": "Anglais"
   },
   "First": {
     "sentence1": "Hello ! Je suis Jean et je suis un ",

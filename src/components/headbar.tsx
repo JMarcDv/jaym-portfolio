@@ -1,5 +1,10 @@
 'use client';
 import {
+  Avatar,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  DropdownTrigger,
   Link,
   Navbar,
   NavbarBrand,
@@ -12,8 +17,16 @@ import {
 } from "@heroui/react";
 import React from 'react';
 import {useTranslations} from 'next-intl';
+import { usePathname, useRouter } from "next/navigation";
 
 export default function HeadBar() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const currentLang = pathname.split('/')[1]
+  const getImgPath = (currentLanguage: string) => {
+    return `/assets/${currentLanguage}.webp`
+  }
+  const imgLangPath = getImgPath(currentLang);
   const t = useTranslations('Headbar');
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const menuItems = [t('home'), t('experiences'), t('projects')]
@@ -22,6 +35,10 @@ export default function HeadBar() {
     if (item === t('experiences')) return '#resume'
     if (item === t('projects')) return '#projects'
   }
+  const changeLanguage = (locale: string) => {
+    const newPath = `/${locale}${pathname.replace(/^\/(en|fr)/, '')}`;
+    router.push(newPath);
+  };
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen} isBordered className='bg-violet-950 bg-opacity-50'>
       <NavbarMenuToggle
@@ -54,6 +71,17 @@ export default function HeadBar() {
             {t('projects')}
           </Link>
         </NavbarItem>
+      </NavbarContent>
+      <NavbarContent justify="end">
+        <Dropdown>
+          <DropdownTrigger>
+            <Avatar radius="full" size="sm" src={imgLangPath} />
+          </DropdownTrigger>
+          <DropdownMenu aria-label="Profile Actions" variant="flat">
+            <DropdownItem key="french" onPress={() => changeLanguage('fr')} startContent={<Avatar radius="full" size="sm" src={getImgPath('fr')} />}>{t('french')}</DropdownItem>
+            <DropdownItem key="english" onPress={() => changeLanguage('en')} startContent={<Avatar radius="full" size="sm" src={getImgPath('en')} />}>{t('english')}</DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
       </NavbarContent>
       <NavbarMenu className="bg-transparent">
         {menuItems.map((item, index) => (
