@@ -1,6 +1,6 @@
 {
   "name": "jaym-portfolio",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,6 +12,7 @@
     "@heroui/react": "2.6.14",
     "aos": "^3.0.0-beta.6",
     "next": "13.5.3",
+    "next-intl": "^4.0.2",
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^5.0.1",
@@ -27,7 +28,11 @@
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
     "postcss": "latest",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "latest",
     "tailwindcss-animated": "^1.0.1",
     "typescript": "^5.2.2"
