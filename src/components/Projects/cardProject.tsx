@@ -7,38 +7,23 @@ import {
   CardHeader,
   useDisclosure
 } from '@heroui/react';
-import React, { useState } from 'react';
+import React from 'react';
 import ModalProject from './modalProject';
+import { useTranslations } from 'next-intl';
 
 export default function CardProject(props: {
   name: string;
   arobase: string;
-  description: string;
   hashtags: Array<string>;
   srcAvatar: string;
   locked: boolean;
 }) {
-  const { name, arobase, description, hashtags, srcAvatar } = props;
+  const { name, arobase, hashtags, srcAvatar } = props;
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  const [selectedJsonData, setSelectedJsonData] = useState({
-    description: '',
-    details: '',
-    technicalEnv: {
-      languages: '',
-      frameworks: '',
-      tests: '',
-      more: ''
-    }
-  });
-  const loadJsonData = (fileName: string) => {
-    import(`./data/${fileName}.json`)
-      .then((module) => setSelectedJsonData(module.default))
-      .catch((error) => console.error('Error loading JSON:', error));
-  };
   const handleOpenModal = () => {
-    loadJsonData(name);
     onOpen();
   };
+  const t = useTranslations(name);
   return (
     <>
       <Card data-aos="zoom-in" className="lg:w-2/4 w-3/4 lg:h-44 h-48 m-7">
@@ -61,7 +46,7 @@ export default function CardProject(props: {
           </Button>
         </CardHeader>
         <CardBody className="flex justify-between px-3 py-0 text-small text-default-400 overflow-hidden">
-          <p>{description}</p>
+          <p>{t('shortDescription')}</p>
           <span className="pt-2">
             {hashtags.map((hashtag) => `#${hashtag} `)}
             <span className="py-2" aria-label="computer" role="img">
@@ -86,7 +71,7 @@ export default function CardProject(props: {
         onOpenChange={onOpenChange}
         name={name}
         company={arobase}
-        data={selectedJsonData}
+        translation={t}
       />
     </>
   );

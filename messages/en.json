@@ -37,5 +37,59 @@
     "baccalaureat": "French Scientific Baccalaureate",
     "honors": "With honors",
     "college": "Buffon College Paris 15"
+  },
+  "Acenstream": {
+    "shortDescription": "Web application to manage dynamic content on a remote TV",
+    "description": "Web application to manage dynamic content on a remote TV.  When the user decides to brodacast a media (image, video or URL), the TV (connected with a Raspberry) communicate with our application to receive the order (via socket) to broadcast",
+    "details": "Project Lead developer full-stack, working as part of a team of 3 developers",
+    "languages": "ReactJS (avec Redux), NodeJS, HTML, CSS",
+    "frameworks": "MaterialUI, Fastify, Sequelize",
+    "tests": "Cypress (E2E tests), Jest (unit testing), Jenkins (CI)",
+    "more": "Docker and Docker-compose"
+  },
+  "SFRD": {
+    "shortDescription": "Web application to manage labels that are used in SFR salepoints",
+    "description": "Web application to manage labels that are used in SFR salepoints. Used data to generate labels displayed in SFR retail stores. The application is currently live in production.",
+    "details": "Full-stack developer on the project, working as part of a team of 6 developers (1 lead dev and 5 devs)",
+    "languages": "ReactJS (with Redux), NodeJS, HTML, CSS",
+    "frameworks": "MaterialUI, Fastify, Sequelize",
+    "tests": "Cypress (E2E tests), Jest (unit testing), Jenkins (CI)",
+    "more": "Docker and Docker-compose"
+  },
+  "ScriptRunner": {
+    "shortDescription": "Developed a script to create a custom Confluence macro with ScriptRunner.",
+    "description": "Developed a script to create a custom Confluence macro with ScriptRunner. The script allows freezing the status of Jira tickets at a given date.",
+    "details": "Developer of the script along with a fellow developer",
+    "languages": "Groovy",
+    "frameworks": "API Rest",
+    "tests": "N/A",
+    "more": "Solid understanding of Jira and Confluence (Atlassian suite)"
+  },
+  "Portfolio": {
+    "shortDescription": "Portfolio showcasing my various experiences as a developer.",
+    "description": "Portfolio showcasing my various experiences as a developer.",
+    "details": "Me, myself and I, made with heart :)",
+    "languages": "NextJS with TypeScript",
+    "frameworks": "TailwindCSS",
+    "tests": "Netlify deployment",
+    "more": "Multiple features are coming, stay tuned :)"
+  },
+  "ComparUtil": {
+    "shortDescription": "School project : Mobile app for comparing products through surveys.",
+    "description": "School project done in the 2nd year of Bachelor degree : Mobile survey app that compares multiple products with each other. Users answer predefined questions by selecting options. At the end, products are ranked based on the points they received.",
+    "details": "Full-stack developer on the project, working as part of a team of 4 developers and a project mentor.",
+    "languages": "React Native, HTML, CSS (frontend), PHP (backend), MySQL",
+    "frameworks": "PHPmyAdmin",
+    "tests": "Jest (Unit tests)",
+    "more": "First React-Native experience (the old one with class components), PHP and database management with SQL requests."
+  },
+  "KryptoKnight": {
+    "shortDescription": "School project : Developed a secure messaging application using RSA encryption.",
+    "description": "Last year baccalaureate (IT domain) : Developed a secure messaging application using RSA encryption.",
+    "details": "Project developer, within a team of 4 developers",
+    "languages": "Python",
+    "frameworks": "Tkinter (Graphical UI), gmpy2 (mathematical functions)",
+    "tests": "N/A",
+    "more": "First experience in software development. I really enjoyed working on this project, which confirmed for me that this is the path I want to pursue in higher education."
   }
 }

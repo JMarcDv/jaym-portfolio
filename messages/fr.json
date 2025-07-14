@@ -37,5 +37,59 @@
     "baccalaureat": "Baccalaureat Scientifique",
     "honors": "Mention assez bien",
     "college": "Lycée Buffon, Paris 15ème"
+  },
+  "Acenstream": {
+    "shortDescription": "Application de gestion de diffusions de contenus dynamiques sur une TV à distance",
+    "description": "Application de gestion de diffusions de contenus dynamiques sur une TV à distance. Le but étant que la télévision (connectée a une Raspberry) communique avec notre application (via socket) lorsque l'utilisateur décide de diffuser un média (image, vidéos, URL)",
+    "details": "Lead développeur full-stack du projet, intégré dans une équipe de 3 autres développeurs.",
+    "languages": "ReactJS (avec Redux), NodeJS, HTML, CSS",
+    "frameworks": "MaterialUI, Fastify, Sequelize",
+    "tests": "Cypress (E2E tests), Jest (unit testing), Jenkins (CI)",
+    "more": "Utilisation de Docker et Docker-compose"
+  },
+  "SFRD": {
+    "shortDescription": "Application de gestion d'étiquettes destinées aux points de vente SFR",
+    "description": "Application de gestion d'étiquettes destinées aux points de vente SFR. Utilisation des données pour pouvoir générer une étiquette destinée à être affichée dans les différents points de vente SFR. Application actuellement en production",
+    "details": "Développeur full-stack du projet, intégré dans une équipe de 6 personnes (1 lead dev et 5 développeurs).",
+    "languages": "ReactJS (avec Redux), NodeJS, HTML, CSS",
+    "frameworks": "MaterialUI, Fastify, Sequelize",
+    "tests": "Cypress (E2E tests), Jest (unit testing), Jenkins (CI)",
+    "more": "Utilisation de Docker et Docker-compose"
+  },
+  "ScriptRunner": {
+    "shortDescription": "Script de création de macro Confluence avec ScriptRunner",
+    "description": "Script de création de macro Confluence avec ScriptRunner. Le script permet de figer le statut des tickets Jira pour une date donnée.",
+    "details": "Développeur du script, en duo avec un autre développeur",
+    "languages": "Groovy",
+    "frameworks": "API Rest",
+    "tests": "N/A",
+    "more": "Compréhension des outils Atlassian (Jira et Confluence)"
+  },
+  "Portfolio": {
+    "shortDescription": "Portfolio contenant mes differents expériences en tant que développeur",
+    "description": "Portfolio contenant mes differents expériences en tant que développeur",
+    "details": "Moi même, fait avec le coeur :)",
+    "languages": "NextJS avec TypeScript",
+    "frameworks": "TailwindCSS",
+    "tests": "Déploiement avec Netlify",
+    "more": "Le Portfolio est en constante évolution ! (Soon in english :))"
+  },
+  "ComparUtil": {
+    "shortDescription": "Projet d'école : Application mobile de sondage qui compare plusieurs produits.",
+    "description": "Projet d'école réalisé en 2ème année de licence : Application mobile de sondage qui compare plusieurs produits entre eux. Des questions prédéfinis sont posées et laisse le choix à l'utilisateur. A la fin du sondage, un classement est établi en fonction du nombre de points de chaque produits",
+    "details": "Développeur full-stack du projet, intégré dans une équipe de 4 développeurs et un tuteur de projet.",
+    "languages": "React Native, HTML, CSS (frontend), PHP (backend), MySQL",
+    "frameworks": "PHPmyAdmin",
+    "tests": "Jest (tests unitaires)",
+    "more": "Première expérience en React-Native (ancien fonctionnement avec des class components), PHP et manipulation de BDD avec les requêtes SQL."
+  },
+  "KryptoKnight": {
+    "shortDescription": "Projet d'école : Création d'une messagerie chiffré avec l'algorithme RSA",
+    "description": "Projet de Terminale (spécialité ISN) : Création d'une messagerie chiffré avec l'algorithme RSA",
+    "details": "Développeur du projet, intégré dans une équipe de 4 développeurs.",
+    "languages": "Python",
+    "frameworks": "Tkinter (interface graphique), gmpy2 (fonctions mathématiques)",
+    "tests": "N/A",
+    "more": "Première expérience en développement logiciel. J'ai pris beaucoup de plaisir a réaliser ce projet qui a été pour moi, la confirmation de la voie à suivre pour les études supérieurs"
   }
 }
